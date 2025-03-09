@@ -1,0 +1,5 @@
+exam-links.txt
+
+Link de Trello :https://trello.com/b/voZKF4zD/control-de-vuelos
+Link de Figma: https://www.figma.com/design/qWXySz7UfiFvhxra3tu3XB/MARIA-FERNANDA-ROBAYO-LAGUNA's-team-library?node-id=3373-602&t=SaElyETgQ1XoNP0O-1
+Enlace del repositorio en Git:https://github.com/FernandaRobayo/programacion-movil-2025-a-g2.git
