@@ -1,0 +1,2 @@
+Enlace del repositorio Git:https://github.com/FernandaRobayo/programacion-movil-2025-a-g2.git
+ Enlace al prototipo en Figma:https://www.figma.com/design/B0hGbIT4AM90jE5Q92rgPF/Untitled?node-id=1-2&t=UFCVkIb5nY3P6Ucy-1
