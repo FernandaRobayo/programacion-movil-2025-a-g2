@@ -1,24 +1,26 @@
 # Historia de Usuario Frontend HU-08: Recuperación de Contraseña
 
+## Descripción
+
 Como usuario de la aplicación, quiero tener la opción de **recuperar mi contraseña** si la he olvidado, para poder acceder nuevamente a mi cuenta.
 
 ---
 
-### Definición de Ready (DoR)
+## Definición de Ready (DoR)
 
-* **Enlace "Olvidé mi contraseña"** en la pantalla de inicio de sesión (HU-03).
-* Una **única pantalla** para:
-    * Ingresar el correo electrónico (para solicitar el restablecimiento).
-    * Ingresar la nueva contraseña y confirmarla.
-* Se han definido los **campos requeridos** en la única pantalla: **Correo Electrónico**, **Nueva Contraseña**, **Confirmar Nueva Contraseña**.
-* Se ha definido la **interacción con el backend**:
-    * **Endpoint** para solicitar el restablecimiento de contraseña (paso 1).
-    * **Endpoint** para guardar la nueva contraseña (paso 2).
-* Se han considerado los **mensajes de éxito y error** en cada paso.
+* Enlace "**Olvidé mi contraseña**" presente en la pantalla de inicio de sesión (HU-03).
+* Se ha definido una única pantalla para:
+    * Ingresar el **correo electrónico** (para solicitar el restablecimiento).
+    * Ingresar la **nueva contraseña** y confirmarla.
+* Se han definido los campos requeridos en la única pantalla: **Correo Electrónico**, **Nueva Contraseña**, **Confirmar Nueva Contraseña**.
+* Se ha definido la interacción con el backend:
+    * Endpoint para **solicitar el restablecimiento de contraseña** (paso 1).
+    * Endpoint para **guardar la nueva contraseña** (paso 2).
+* Se han considerado los mensajes de éxito y error en cada paso.
 
 ---
 
-### Definición de Done (DoD)
+## Definición de Done (DoD)
 
 * Puedo ingresar mi "**Correo Electrónico**".
 * Puedo escribir una "**Nueva Contraseña**" y confirmarla.
@@ -29,10 +31,10 @@ Como usuario de la aplicación, quiero tener la opción de **recuperar mi contra
 
 ---
 
-### Tasks
+## Tasks
 
-* **Diseñar la vista de "Renovar Contraseña"**: Asegurar que el título, los campos de correo, nueva contraseña y confirmación, el botón y el enlace "Volver a Iniciar Sesión" se vean bien.
+* **Diseñar la vista de "Renovar Contraseña"**: Asegurar que el título, los campos de correo, nueva contraseña y confirmación, el botón y el enlace "**Volver a Iniciar Sesión**" se vean bien.
 * **Crear los campos para "Correo Electrónico", "Nueva Contraseña" y "Confirmar Nueva Contraseña"**: Hacer que el usuario pueda escribir en ellos.
-* **Añadir la regla para que las contraseñas coincidan**: Programar que la "Nueva Contraseña" y la "Confirmar Nueva Contraseña" deben ser idénticas.
+* **Añadir la regla para que las contraseñas coincidan**: Programar que la "**Nueva Contraseña**" y la "**Confirmar Nueva Contraseña**" deben ser idénticas.
 * **Hacer que el botón "Renovar Contraseña" esté listo**: Programar el botón para que, al presionarlo, recoja los datos y los envíe al sistema para cambiar la contraseña.
 * **Mostrar mensajes de éxito o error**: Después de intentar renovar, darle un mensaje claro al usuario si su contraseña se cambió o si hay un problema (ej. "Contraseña actualizada" o "El correo no existe").
